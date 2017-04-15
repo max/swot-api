@@ -4,10 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "micro"
+    "start": "micro",
+    "test": "ava"
   },
   "dependencies": {
     "micro": "^7.3.2",
+    "request-promise": "^4.2.0",
     "swot-js": "^1.0.3"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "test-listen": "^1.0.2"
   }
 }

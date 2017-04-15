@@ -10,6 +10,7 @@ module.exports = (req, res) => {
   }
 
   const result = swot.check(email);
+
   const is_academic = Boolean(result);
   const institution = result || null;
 
