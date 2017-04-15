@@ -1,0 +1,13 @@
+{
+  "name": "swot-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "micro"
+  },
+  "dependencies": {
+    "micro": "^7.3.2",
+    "swot-js": "^1.0.3"
+  }
+}
