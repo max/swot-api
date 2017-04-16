@@ -1,6 +1,6 @@
+const url = require('url');
 const { createError } = require('micro');
 const check = require('./lib/check');
-const url = require('url');
 
 module.exports = async (req, res) => {
   const { email } = url.parse(req.url, true).query;
@@ -15,4 +15,4 @@ module.exports = async (req, res) => {
   const institution = result || null;
 
   res.end(JSON.stringify({ email, is_academic, institution }));
-}
+};

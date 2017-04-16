@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "micro",
-    "test": "ava"
+    "test": "xo && ava"
   },
   "dependencies": {
     "micro": "^7.3.2",
@@ -14,6 +14,15 @@
   "devDependencies": {
     "ava": "^0.19.1",
     "request-promise": "^4.2.0",
-    "test-listen": "^1.0.2"
+    "test-listen": "^1.0.2",
+    "xo": "^0.18.1"
+  },
+  "xo": {
+    "esnext": true,
+    "rules": {
+      "camelcase": 0,
+      "object-curly-spacing": [2, "always"]
+    },
+    "space": true
   }
 }

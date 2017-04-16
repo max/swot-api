@@ -1,13 +1,13 @@
 const listen = require('test-listen');
 const micro = require('micro');
 const request = require('request-promise');
-const swotApi = require('./index.js');
 const test = require('ava');
+const swotApi = require('./index.js');
 
 const app = micro(swotApi);
 let url;
 
-test.before(async t => {
+test.before(async () => {
   url = await listen(app);
 });
 
