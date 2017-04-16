@@ -36,9 +36,3 @@ test('endpoint works with non-edu email', async t => {
     }
   );
 });
-
-function thenSleep(ms) {
-  return new Promise(resolve => {
-    setTimeout(resolve, ms);
-  });
-}
