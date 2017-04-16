@@ -9,6 +9,7 @@ let url;
 
 test.before(async t => {
   url = await listen(app);
+  const foo = await thenSleep(5000);
 });
 
 test('endpoint works with edu email', async t => {
@@ -18,7 +19,7 @@ test('endpoint works with edu email', async t => {
     body,
     {
       email: 'foo@mit.edu',
-      institution: 'Massachusets Institute of Technology',
+      institution: 'Massachusetts Institute of Technology',
       is_academic: true
     }
   );
@@ -36,3 +37,9 @@ test('endpoint works with non-edu email', async t => {
     }
   );
 });
+
+function thenSleep(ms) {
+  return new Promise(resolve => {
+    setTimeout(resolve, ms);
+  });
+}
