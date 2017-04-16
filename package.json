@@ -9,11 +9,11 @@
   },
   "dependencies": {
     "micro": "^7.3.2",
-    "request-promise": "^4.2.0",
     "swot-js": "^1.0.3"
   },
   "devDependencies": {
     "ava": "^0.19.1",
+    "request-promise": "^4.2.0",
     "test-listen": "^1.0.2"
   }
 }

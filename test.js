@@ -9,7 +9,6 @@ let url;
 
 test.before(async t => {
   url = await listen(app);
-  // const foo = await thenSleep(5000);
 });
 
 test('endpoint works with edu email', async t => {
