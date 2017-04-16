@@ -1,4 +1,4 @@
-# SWOT API
+# SWOT API [![Build Status](https://travis-ci.org/max/swot-api.svg?branch=master)](https://travis-ci.org/max/swot-api.svg?branch=master)
 
 A simple micro-service that wraps [swot-js](https://www.npmjs.com/package/swot-js) and provides an API to identify email addresses that belong to colleges or universities.
 
