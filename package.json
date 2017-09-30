@@ -22,7 +22,10 @@
     "esnext": true,
     "rules": {
       "camelcase": 0,
-      "object-curly-spacing": [2, "always"]
+      "object-curly-spacing": [
+        2,
+        "always"
+      ]
     },
     "space": true
   }
