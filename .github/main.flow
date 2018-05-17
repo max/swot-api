@@ -1,1 +1,4 @@
-
+task "ci" {
+  uses = "google-container-builder"
+  config = "Dockerfile"
+}
