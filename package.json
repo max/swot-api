@@ -8,15 +8,15 @@
     "test": "xo && ava"
   },
   "dependencies": {
-    "micro": "^7.3.2",
-    "request": "^2.83.0",
+    "micro": "^9.3.1",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
     "swot-js": "^1.0.3"
   },
   "devDependencies": {
-    "ava": "^0.19.1",
-    "request-promise": "^4.2.0",
-    "test-listen": "^1.0.2",
-    "xo": "^0.18.1"
+    "ava": "^0.25.0",
+    "test-listen": "^1.1.0",
+    "xo": "^0.21.1"
   },
   "xo": {
     "esnext": true,

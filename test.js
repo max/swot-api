@@ -2,7 +2,7 @@ const listen = require('test-listen');
 const micro = require('micro');
 const request = require('request-promise');
 const test = require('ava');
-const swotApi = require('./index.js');
+const swotApi = require('.');
 
 const app = micro(swotApi);
 let url;
