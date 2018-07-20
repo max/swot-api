@@ -11,4 +11,4 @@ COPY . .
 RUN npm test
 
 EXPOSE 3000
-CMD ["npm start"]
+CMD ["npm tart"]
